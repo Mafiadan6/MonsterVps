@@ -1,0 +1,140 @@
+# MonsterVps .gitignore
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+/var/log/
+/logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+*.conf
+*.config
+config/
+/etc/MonsterVps/config/
+
+# User data
+/etc/MonsterVps/db/
+/etc/MonsterVps/users/
+/etc/MonsterVps/keys/
+
+# Backup files
+*.bak
+*.backup
+backup/
+backups/
+
+# Cache files
+*.cache
+cache/
+.cache/
+
+# Lock files
+*.lock
+*.pid
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-*
+.brackets.json
+
+# Runtime files
+*.sock
+*.socket
+pid/
+run/
+
+# Certificate files
+*.crt
+*.key
+*.pem
+*.cert
+*.ca-bundle
+
+# Archive files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.rar
+*.7z
+
+# Package files
+*.deb
+*.rpm
+*.pkg
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.so
+*.o
+*.a
+
+# Documentation build files
+docs/_build/
+*.pdf
+*.eps
+*.ps
+
+# Test files
+test_*
+*_test
+testing/
+tests/
+
+# Node.js (if used)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Local development files
+local/
+local_*
+dev/
+development/
+
+# OS generated files
+.fseventsd
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Replit specific
+.replit
+replit.nix
+.upm/
+.pythonlibs/
+
+# Module file (generated)
+module
+
+# Installation temporary files
+install_*
+setup_*
+tmp_*
